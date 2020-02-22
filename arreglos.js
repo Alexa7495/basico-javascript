@@ -3,6 +3,7 @@ animales.pop(); //elimina elemento de la ultima posición
 
 var animales = ['🐻', '🦁', '🐣'];
 animales.push('🐬'); //agrega elemento en la última posición
+animales.push('🐘');
 animales.unshift('🦍'); //agrega elemento en la primera posición
 
 for (var i = 0; i < animales.length; i++){
